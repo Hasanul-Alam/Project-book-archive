@@ -1,0 +1,13 @@
+.page-width{
+    max-width: 80%;
+    margin: 20px auto;
+}
+#error-message{
+    display: none;
+}
+#spinner{
+    display: none;
+}
+#toggle-error{
+    display: none;
+}
