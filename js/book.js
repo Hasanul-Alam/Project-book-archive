@@ -42,6 +42,7 @@ const displayBooks = (books)=> {
     // Show error message.
     if(books.numFound === 0){
         error.style.display = 'block';
+        toggleSpinner('none');
     }
     else {
         // Show how many result found
